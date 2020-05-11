@@ -9,8 +9,6 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
-
-
 body {
   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
@@ -23,9 +21,6 @@ a {
   text-decoration: none;
 }
 
-
-/*ここから*/
-
 .home-section-row{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -35,6 +30,8 @@ header{
   height: 66px;
   border-bottom: 1px solid black;
 }
+
+/* ヘッダー */
 
 .logo {
   width: 130px;
@@ -46,12 +43,12 @@ header{
   float: left;
 }
 
-.top-message-header{
-  height: 320px;
-}
+/* トップメッセージ */
 
 .top-message-content{
   margin:60px 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .input-group{
@@ -106,6 +103,8 @@ header{
   margin-bottom: 30px;
 }
 
+/* home-section 1*/
+
 .home-section-contents h1{
   font-size: 22px;
 }
@@ -142,3 +141,21 @@ header{
 .btn-card:hover{
   background-color: #3da9d2;
 }
+
+.card-logo-image{
+  border-radius: 6px;
+}
+
+.card-body h4{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.tool-card-badge{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #5f6c7b;
+  color: white;
+  padding:6px;
+}
+
