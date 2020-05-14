@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -16,14 +16,14 @@
 
   <script>
       $(function() {
-        $("header").load("header.html");
-        $(".top-message-header").load("top-message-header.html");
-        $(".section-1").load("section-1.html");
-        $(".section-2").load("section-2.html");
-        $(".section-3").load("section-3.html");
-        $(".section-4").load("section-4.html");
-        $(".list-marketplace-row").load("list-marketplace-row.html");
-        $("footer").load("footer.html");
+        $("header").load("html/header.html");
+        $(".top-message-header").load("html/top-message-header.html");
+        $(".section-1").load("html/section-1.html");
+        $(".section-2").load("html/section-2.html");
+        $(".section-3").load("html/section-3.html");
+        $(".section-4").load("html/section-4.html");
+        $(".list-marketplace-row").load("html/list-marketplace-row.html");
+        $("footer").load("html/footer.html");
         });
   </script>
   </head>
@@ -47,10 +47,27 @@
     </div>
   </div>
 
-
+  <div class="modal-wrapper" id="modal-01">
+    <a href="#!" class="modal-overlay"></a>
+    <div class="modal-window">
+      <div class="modal-description">
+        <h4>解約のリマインドを受け取る</h4>
+        <p>メールアドレスを入力すると解約の日の前に通知を行います。</p>
+        <div class=input-group>
+          <input type="text" class="form-control" placeholder="Your Email" id="emailReminderInput" form="reminder-email-form">
+          <div class="input-group-append">
+            <button class="btn btn-add" id="reminder-email-sunmit">有効にする</button>
+          </div>
+        </div>
+        <br>
+        <div>
+          <a href="#" class="reminder-email-modal-skip" id="reminder-email-modal-skip">
+            今回はリマインドしない
+          </a>
+        </div>
+      </div>
+      <a href="#!" class="modal-close">×</a>
+    </div>
+  </div>
 </body>
-
-
-
-
 <script src="script.js"></script>
