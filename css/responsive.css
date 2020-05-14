@@ -2,4 +2,29 @@
   .modal-wrapper .modal-window { 
     width:95%;
 }
+
+  .modal-description h4{
+  font-size: 20px;
   }
+
+  .modal-description p{
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .input-group{
+    width: 95%;
+}
+
+}
+
+
+@media screen and (max-width: 767px) { 
+  .modal-wrapper .modal-window { 
+    width:80%;
+}
+
+
+
+
+}

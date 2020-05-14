@@ -278,7 +278,7 @@ footer{
   width: 70%;
   max-width: 600px;
   padding: 30px 30px 15px;
-  border-radius: 2px;
+  border-radius: 8px;
   background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, .6);
   vertical-align: middle
@@ -318,3 +318,20 @@ footer{
 .modal-wrapper .modal-close:hover {
   color: #2b2e38 !important
 }
+
+.input-group{
+  width: 80%;
+  margin-top: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.reminder-email-modal-skip{
+  color: grey;
+  font-size: 12px;
+}
+
+.modal-description p{
+  margin-top: 8px;
+}
+
