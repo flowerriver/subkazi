@@ -24,6 +24,7 @@
         $(".section-4").load("html/section-4.html");
         $(".list-marketplace-row").load("html/list-marketplace-row.html");
         $("footer").load("html/footer.html");
+        $("modal-wrapper").load("html/modal-wrapper.html");
         });
   </script>
   </head>
@@ -47,27 +48,32 @@
     </div>
   </div>
 
+
+
+<!-- モーダル -->
+
   <div class="modal-wrapper" id="modal-01">
     <a href="#!" class="modal-overlay"></a>
     <div class="modal-window">
       <div class="modal-description">
         <h4>解約のリマインドを受け取る</h4>
         <p>メールアドレスを入力すると解約の日の2日前に通知を行います。</p>
-        <div class=input-group-email>
+        <div class="input-group" id="input-group-email">
           <input type="text" class="form-control" placeholder="Your Email" id="emailReminderInput" form="reminder-email-form">
           <div class="input-group-append">
-            <button class="btn btn-add" id="reminder-email-sunmit">有効にする</button>
+            <button class="btn btn-add" id="reminder-email-submit">有効にする</button>
           </div>
         </div>
         <br>
         <div>
-          <a href="#" class="reminder-email-modal-skip" id="reminder-email-modal-skip">
+      <a href="https://www.netflix.com/" target=”_blank” class="reminder-email-modal-skip" id="reminder-email-modal-skip">
             今回はリマインドしない
-          </a>
+      </a>
         </div>
       </div>
       <a href="#!" class="modal-close">×</a>
-    </div>
   </div>
+</div>
+
 </body>
 <script src="script.js"></script>
